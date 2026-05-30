@@ -1,8 +1,5 @@
 # Exclude Android and Gradle build files from Vercel deployment uploads
-app/src/
-app/build.gradle.kts
-app/proguard-rules.pro
-app/build/
+android/
 .gradle/
 gradle/
 build/

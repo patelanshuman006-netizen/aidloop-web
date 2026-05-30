@@ -4,9 +4,7 @@ const nextConfig = {
   experimental: {
     outputFileTracingExcludes: {
       '*': [
-        'app/src/**/*',
-        'app/build/**/*',
-        'app/build.gradle.kts',
+        'android/**/*',
         'build.gradle.kts',
         'settings.gradle.kts',
         'gradle.properties',
@@ -14,6 +12,17 @@ const nextConfig = {
         '.gradle/**/*',
       ],
     },
+  },
+  webpack: (config) => {
+    config.watchOptions = {
+      ...config.watchOptions,
+      ignored: [
+        '**/android/**',
+        '**/.gradle/**',
+        '**/gradle/**',
+      ],
+    };
+    return config;
   },
 };
 
