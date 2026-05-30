@@ -1,0 +1,17 @@
+# Exclude Android and Gradle build files from Vercel deployment uploads
+app/src/
+app/build.gradle.kts
+app/proguard-rules.pro
+app/build/
+.gradle/
+gradle/
+build/
+build.gradle.kts
+settings.gradle.kts
+gradle.properties
+debug.keystore
+debug.keystore.base64
+local.properties
+*.iml
+.idea/
+metadata.json
