@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rounded Box matches the Sign-in/Sign-up screen's logo container (PrimaryAmber to AccentPurple gradient) -->
+    <path
+        android:pathData="M 38,22 h 32 a 16,16 0 0 1 16,16 v 32 a 16,16 0 0 1 -16,16 h -32 a 16,16 0 0 1 -16,-16 v -32 a 16,16 0 0 1 16,-16 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="22"
+                android:endX="86"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF9800"/> <!-- PrimaryAmber -->
+                <item android:offset="1.0" android:color="#7C4DFF"/> <!-- AccentPurple -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Loop Icon from the branding logo, styled in premium dark/black as in the Sign-in options -->
+    <group
+        android:pivotX="12"
+        android:pivotY="12"
+        android:scaleX="1.583"
+        android:scaleY="1.583"
+        android:translateX="42"
+        android:translateY="42">
+        <path
+            android:fillColor="#12121A"
+            android:pathData="M 12,4 V 1 L 8,5 L 12,9 V 6 C 15.31,6 18,8.69 18,12 C 18,13.01 17.75,13.97 17.3,14.8 L 18.77,16.27 C 19.54,15.01 20,13.56 20,12 C 20,7.58 16.42,4 12,4 Z M 12,18 C 8.69,18 6,15.31 6,12 C 6,10.99 6.25,10.03 6.7,9.2 L 5.23,7.73 C 4.46,8.99 4,10.44 4,12 C 4,16.42 7.58,20 12,20 V 23 L 16,19 L 12,15 V 18 Z" />
+    </group>
+
+</vector>
+

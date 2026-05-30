@@ -1,0 +1,6 @@
+{
+  "name": "AidLoop",
+  "description": "A modern community aid platform for posting local needs and offering community help with glassmorphic visuals and real-time support channels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
